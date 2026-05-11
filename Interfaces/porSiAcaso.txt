@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Barra lateral</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<div class="sidebar">
+  <h2 class="titular-barra">Jacunamatata</h2>
+  <h3 class="titulo-barra">Opciones</h3>
+    <div class="item">
+        <img src="icono1.png" class="icono">
+		 <span>Inicio</span>
+    </div>
+
+    <div class="item">
+        <img src="icono2.png" class="icono">
+        <span>Servicios</span>
+    </div>
+
+    <div class="item">
+        <img src="icono3.png" class="icono">
+        <span>Contacto</span>
+    </div>
+	
+</div>
+</body>
+</html>
+
+body {
+    margin: 0;
+}
+
+.sidebar {
+    width: 200px;
+    height: 96.8vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+	border-radius: 15px;
+	font-family: "Times New Roman", serif;
+	font-weight: normal;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.item:hover {
+	font-weight: bold;
+    background-color: #333;
+}
+
+.icono {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.titulo-barra {
+	font-family: "Times New Roman", serif;
+    font-weight: normal;
+	font-size: 16px;
+	color: gray;
+	
+}
+
+.titular-barra {
+	font-family: "Times New Roman", serif;
+    font-weight: normal;
+	font-size: 20px;
+	
+}
+
+.contenedor {
+    display: flex;
+}
+
+/* Contenido a la derecha */
+.contenido {
+    flex: 1;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+/* Cuadros de cada mes */
+.cuadro {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 5px;
+    text-align: center;
+}
