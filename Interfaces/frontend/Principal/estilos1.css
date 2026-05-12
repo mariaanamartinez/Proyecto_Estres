@@ -1,0 +1,106 @@
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(239, 230, 199);
+}
+
+.tarjeta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1150px;  
+    height: 680px;            
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 16px;       
+    padding: 25px;            
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.tarjeta h1{
+    font-size: 80px;
+}
+
+
+
+.tarjeta2 {
+    position: absolute;
+    top: 50%;
+    left: 980px;
+    transform: translateY(-50%);
+    width: 300px;  
+    height: 690px;            
+    background-color:#f0d692;
+    border: 1px solid #ddd;
+    border-radius: 16px;       
+    padding: 25px;             
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.tarjeta2 h3 {
+    font-size: 32px;  
+}
+
+.tarjeta2:hover {
+    transform: translateY(-50%) scale(1.03);  /* escala un poco más pequeña para que no se vea enorme al hover */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.info {
+    position: absolute;
+    top: 80%;
+    left: 9%;
+   
+    width: 1196px;  
+    height: 110px; 
+    background-color: rgb(255, 213, 232);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    border-radius: 8px;
+}
+
+.info small{
+    position: absolute;
+    top: 15%;
+    left: 3%;
+}
+
+.menu{
+    position: absolute;
+    top: 9%;
+    left: 1200px;
+    transform: translateY(-50%);
+    width: 750px;  
+    height: 110px; 
+}
+
+.btn-inicio, .btn-registro {
+    display: block;        /* Cada botón en su propia línea */
+    width: 90%;           /* Ancho del botón (80% de la tarjeta) */
+    margin: 12px auto;    /* 12px arriba/abajo, auto izquierda/derecha (centra) */
+    padding: 30px 19px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+.btn-inicio {
+    background-color: rgba(244, 142, 69, 0.935);
+    color: white;
+}
+
+.btn-registro {
+    background-color: #ea8f8fee;
+    color: white;
+}
+
+.btn-inicio:hover, .btn-registro:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}

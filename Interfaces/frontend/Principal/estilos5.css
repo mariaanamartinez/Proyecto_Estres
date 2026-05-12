@@ -1,0 +1,257 @@
+
+body {
+    background-color: rgb(239, 230, 199);
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjetaInicio{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1150px;  
+    height: 680px;            
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 16px;       
+    padding: 25px;           
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+
+}
+
+
+.contenedorAmarillo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#f0d692;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 450px;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.contenedorMaterias{
+    
+    transform: translate(0%, 0%);
+    background-color:#f9e1df;
+    border-radius: 15px;
+    padding: 40px;
+    max-width: 450px;
+    width: 82%;
+    height: 10%;
+    
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.subtitulo {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.recuadro-formulario {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.grupo-formulario {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+
+
+.boton {
+    position: absolute;
+    top: 95%;
+    left: 75%;
+    background-color: #d1ad6a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 30%;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+.boton:hover {
+    background-color: #917439;
+}
+
+.botonAg {
+    background-color: #d1ad6add;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 70%;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 60px;
+    
+    
+}
+
+.opciones {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.opciones a {
+    color: #EFCE6C;
+    text-decoration: none;
+}
+
+.opciones a:hover {
+    text-decoration: underline;
+}
+
+.error-mensaje {
+    color: #e74c3c;
+    font-size: 12px;
+    margin-top: 5px;
+    display: none;
+}
+
+.exito-mensaje {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: none;
+    text-align: center;
+}
+
+/*    -------------------------------------------*/
+
+.boton1 {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 162, 100);
+    border-radius: 50%;
+    border-color: #0000;
+}
+.boton1:hover {
+    background-color: rgb(212, 102, 29);
+}
+.boton2 {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(254, 220, 26);
+    border-radius: 50%;
+    border-color: #0000;
+}
+.boton2:hover {
+    background-color: rgb(237, 197, 21);
+}
+.boton3 {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(165, 196, 93);
+    border-radius: 50%;
+    border-color: #0000;
+}
+.boton3:hover {
+    background-color: rgb(152, 192, 61);
+}
+
+.boton4 {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(155, 196, 198);
+    border-radius: 50%;
+    border-color: #0000;
+}
+.boton4:hover {
+    background-color: rgb(46, 179, 184);
+}
+
+.boton5 {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(99, 139, 208);
+    border-radius: 50%;
+    border-color: #0000;
+}
+.boton5:hover {
+    background-color: rgb(46, 106, 210);
+}
+.boton6 {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(193, 127, 244);
+    border-radius: 50%;
+    border-color: #0000;
+}
+.boton6:hover {
+    background-color: rgb(141, 58, 205);
+}
+
+.boton7 {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(218, 107, 177);
+    border-radius: 50%;
+    border-color: #0000;
+}
+.boton7:hover {
+    background-color: rgb(210, 61, 156);
+}
+.boton8 {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(218, 94, 94);
+    border-radius: 50%;
+    border-color: #0000;
+}
+.boton8:hover {
+    background-color: rgb(216, 67, 67);
+}
+
+.colores{
+    margin-top: 15px;
+    margin-left: 50px;
+}
